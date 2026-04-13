@@ -141,7 +141,7 @@ echo ""
 # ============================================
 log_info "Phase 3: Downloading configurations from Fatih0234/omo-configs..."
 
-CONFIG_DIR="$HOME/.config/oh-my-opencode"
+CONFIG_DIR="$HOME/.config/opencode"
 mkdir -p "$CONFIG_DIR"
 
 # Create temporary directory for cloning configs
@@ -189,14 +189,14 @@ cd "$PROJECTS_DIR"
 
 # List of repositories to clone
 REPOS=(
-    "Fatih0234/project-1"
-    "Fatih0234/project-2"
-    "Fatih0234/project-3"
-    "Fatih0234/project-4"
-    "Fatih0234/project-5"
-    "Fatih0234/project-6"
-    "Fatih0234/project-7"
+    "Fatih0234/pi-mono"
+    "Fatih0234/pi-agent-extensions"
+    "Fatih0234/agent-stuff"
     "Fatih0234/pi-pomodoro"
+    "Fatih0234/pi-todo-ext"
+    "Fatih0234/symphony-orchestrator"
+    "Fatih0234/better-context"
+    "Fatih0234/career-ops"
 )
 
 cloned_count=0
@@ -322,13 +322,13 @@ echo "   oh-my-opencode doctor"
 echo "   # or: bunx oh-my-opencode doctor"
 echo ""
 echo "3. Review configuration files:"
-echo "   ls -la ~/.config/oh-my-opencode/"
+echo "   ls -la ~/.config/opencode/"
 echo ""
 echo "4. Navigate to your projects:"
 echo "   cd ~/projects"
 echo ""
 echo "5. Configure API keys (if not already done):"
-echo "   # Edit ~/.config/oh-my-opencode/config.json"
+echo "   # Edit ~/.config/opencode/config.json"
 echo "   # Add your Fireworks AI and OpenAI API keys"
 echo ""
 
